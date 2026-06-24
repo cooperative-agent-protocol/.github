@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cap-mark.svg" alt="Cooperative Agent Protocol mark" width="112" />
+  <img src="https://raw.githubusercontent.com/cooperative-agent-protocol/.github/main/profile/assets/cap-mark.svg" alt="Cooperative Agent Protocol mark" width="112" />
 </p>
 
 <h1 align="center">Cooperative Agent Protocol</h1>
