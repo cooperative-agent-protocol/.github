@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Cooperative Agent Protocol mark</title>
+  <desc id="desc">A dark square mark with connected coordination nodes and the letters CAP.</desc>
+  <defs>
+    <linearGradient id="bg" x1="128" y1="80" x2="896" y2="944" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827" />
+      <stop offset="0.52" stop-color="#0b1220" />
+      <stop offset="1" stop-color="#07111f" />
+    </linearGradient>
+    <linearGradient id="arcA" x1="232" y1="270" x2="790" y2="730" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#64d2ff" />
+      <stop offset="1" stop-color="#2dd4bf" />
+    </linearGradient>
+    <linearGradient id="arcB" x1="246" y1="730" x2="790" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f59e0b" />
+      <stop offset="1" stop-color="#f97316" />
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.32" />
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="176" fill="url(#bg)" />
+  <circle cx="512" cy="512" r="362" fill="none" stroke="#1f2937" stroke-width="28" />
+  <circle cx="512" cy="512" r="264" fill="#0f172a" opacity="0.56" />
+
+  <g filter="url(#softShadow)">
+    <path d="M294 334C395 226 632 222 734 334" fill="none" stroke="url(#arcA)" stroke-width="48" stroke-linecap="round" />
+    <path d="M258 664C366 802 652 802 766 664" fill="none" stroke="url(#arcB)" stroke-width="48" stroke-linecap="round" />
+    <path d="M296 346L512 512L728 346M512 512L268 666M512 512L756 666" fill="none" stroke="#94a3b8" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" opacity="0.72" />
+
+    <circle cx="296" cy="346" r="58" fill="#0b1220" stroke="#64d2ff" stroke-width="28" />
+    <circle cx="728" cy="346" r="58" fill="#0b1220" stroke="#2dd4bf" stroke-width="28" />
+    <circle cx="268" cy="666" r="58" fill="#0b1220" stroke="#f59e0b" stroke-width="28" />
+    <circle cx="756" cy="666" r="58" fill="#0b1220" stroke="#f97316" stroke-width="28" />
+
+    <rect x="318" y="416" width="388" height="184" rx="62" fill="#111827" stroke="#f8fafc" stroke-width="24" />
+    <text x="512" y="555" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="128" font-weight="800" letter-spacing="0" fill="#f8fafc">CAP</text>
+  </g>
+</svg>
